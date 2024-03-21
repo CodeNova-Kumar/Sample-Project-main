@@ -1,0 +1,83 @@
+.logo {
+    width: 120px;
+    height: 120px;
+  }
+  .card{
+    /*background: linear-gradient(180deg, white,rgb(24, 78, 24));*/
+    border:none;
+    padding: 10px;
+    
+    
+  }
+  .txt{
+    color: green;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  header{
+    background-image: url(C:\Users\Aakarsh\Desktop\Sample\Hover\src\assets\bg.png);
+    background-size: cover;
+    height: 60vh;
+    text-align: center;
+    color: black;
+    padding-top: 150px;
+    
+
+}
+.hero-title{
+    font-weight: bolder;
+    text-shadow: 1px 2px grey;
+    font-size: 3em;
+    text-align: left;
+    padding-left: 100px;
+    
+  
+    
+}
+.btn{
+  padding-left: 100px;
+  margin-left: 100px;
+}
+
+.hero-subtitle{
+  text-align: left;
+  padding-left: 100px;
+  
+  
+}
+footer{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: #00000037;
+    padding: 30px 300px;
+    color: black;
+}
+.social-link{
+    color: rgb(86, 86, 194);
+    text-decoration: none;
+}
+.video{
+    width:100%;
+    height:400px;
+    object-fit: cover;
+}
+.vid{
+    position: relative;
+    color: white;
+    font-size: 20px;
+}
+.signup-content{
+    position: absolute;
+    text-align: center;
+}
+.feature-card{
+    box-shadow: 2px 2px 5px darkgrey;
+  
+}
+.feature-card:hover{
+    /*border:2px solid black;
+    /*background-color: aqua;*/
+    color: black;
+} 
+
