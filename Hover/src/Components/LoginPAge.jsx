@@ -102,7 +102,7 @@ function LoginPAge() {
               Sign in
             </button>
           </div>
-          <img src="image01.png" class="image" alt="" />
+          {/* <img src="image01.png" class="image" alt="" /> */}
         </div>
       </div>
     </div>
