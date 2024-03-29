@@ -17,17 +17,17 @@ const Feedback = () => {
     rel="stylesheet"
   />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact Section</title>
+  <title>Feedback Section</title>
   <div className="container">
     <main className="row">
       {/*  *******   Left Section (Column) Starts   *******  */}
       <section className="col left">
         {/*  *******   Title Starts   *******  */}
         <div className="contactTitle">
-          <h2>Get In Touch</h2>
+          <h2>Feedback</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod.
+          I want EDS team to respond to my feedback
+
           </p>
         </div>
         {/*  *******   Title Ends   *******  */}

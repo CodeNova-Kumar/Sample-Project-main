@@ -36,7 +36,7 @@ function LoginPAge() {
               <FontAwesomeIcon icon={faLock} className='my-auto mx-auto'/>
               <input className='LoginInput' type="password" placeholder="Password" />
             </div>
-            <button className='btn'>Sign In</button>
+            <button className='btn fs-4'>Sign In</button>
            
             <p className="social-text loginp"> Sign in with social platforms</p>
             <div className="social-media">
@@ -63,7 +63,7 @@ function LoginPAge() {
               <FontAwesomeIcon icon={faLock} className='my-auto mx-auto'/>
               <input className='LoginInput' type="password" placeholder="Password" />
             </div>
-            <button className='btn'>Sign Up</button>
+            <button className='btn fs-4'>Sign Up</button>
             <p className="social-text loginp">Or Sign up with social platforms</p>
             <div className="social-media">
              

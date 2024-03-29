@@ -35,14 +35,14 @@ const Navbar = () => {
         <Link className="nav-link" to="/Feedback">
           Feedback
         </Link>
-        <Link
+        {/* <Link
           className="nav-link disabled"
           to="#"
           tabIndex={-1}
           aria-disabled="true"
         >
           Disabled
-        </Link>
+        </Link> */}
       </div>
     </div>
   </div>

@@ -53,8 +53,10 @@ body{
     border-radius: 50%;
 }
 .text{
-    font-weight: 300;
+    /* font-weight: 300; */
+    font-size: 18px;
     opacity: 0.9;
+    
 }
 .contact-bg .text{
     margin: 1.6rem 0;

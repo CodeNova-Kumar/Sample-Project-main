@@ -1,26 +1,18 @@
 const express =require('express');
 const app = express();
 const port = 3000;
+const cors = require('cors')
 
-// app.get('/add',(req,res)=>{
-//     res.send("Hello world")
-// })
+app.use(cors({
+    origin: ['http://localhost:5173']
+}))
 
-// app.get('/update',(req,res)=>{
-//     res.send("A gye 🫡")
-// })
-
-// app.get('/updatee',(req,res)=>{
-//     res.send("Mae Dakku🐯")
-// })
-
-
-// const UserRouter=require('./Routers/User')
+const UserRouter=require('./Routers/User')
 
 // Middleware
-// app.use(express.json());
-// app.use('/user',UserRouter)
+app.use(express.json());
+app.use('/user',UserRouter)
 
 app.listen(port,() =>{
-    console.log('Server is Running at the port 30000')
+    console.log('Server is Running at the port 3000')
 })
