@@ -89,7 +89,7 @@ function LoginPAge() {
               Sign up
               </button>
           </div>
-          <img src="/img/dogLogin1.svg" class="image" alt="" />
+          <img src="image01.png" class="image" alt="" />
         </div>
         <div className="panel right-panel">
           <div className="content">
@@ -102,7 +102,7 @@ function LoginPAge() {
               Sign in
             </button>
           </div>
-          {/* <img src="image01.png" class="image" alt="" /> */}
+          <img src="image02.png" class="image" alt="" />
         </div>
       </div>
     </div>

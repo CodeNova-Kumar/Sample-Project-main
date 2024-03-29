@@ -39,7 +39,7 @@ body{
 .line div:nth-child(3){
     height: 3px;
     width: 70px;
-    background: #f7327a;
+    background: #2EC8A6;
     border-radius: 5px;
 }
 .line{
@@ -49,7 +49,7 @@ body{
 .line div:nth-child(2){
     width: 10px;
     height: 10px;
-    background: #f7327a;
+    background: #3c08cc;
     border-radius: 50%;
 }
 .text{
@@ -81,7 +81,7 @@ body{
 .contact-info span .fas{
     font-size: 2rem;
     padding-bottom: 0.9rem;
-    color: #f7327a;
+    color: #5995FD;
 }
 .contact-info div span:nth-child(2){
     font-weight: 500;
@@ -120,7 +120,7 @@ body{
     font-size: 1rem;
     text-transform: uppercase;
     color: #fff;
-    background: #f7327a;
+    background: #2EC8A6;
     border: none;
     border-radius: 5px;
     padding: 0.7rem 1.5rem;
