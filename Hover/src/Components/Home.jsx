@@ -6,327 +6,425 @@ const Home = () => {
       <>
   <meta charSet="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emergency Doctor Services</title>
   <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
     rel="stylesheet"
+    href="https://cdn-uicons.flaticon.com/2.1.0/uicons-thin-rounded/css/uicons-thin-rounded.css"
   />
-  <link rel="stylesheet" href="styles.css" />
-  <title>Web Design Mastery | HealthCare</title>
-  <header>
-    <nav className="section__container nav__container">
-      <div className="nav__logo">
-        Health<span>Care</span>
-      </div>
-      <ul className="nav__links">
-        <li className="link">
-          <a href="#">Home</a>
-        </li>
-        <li className="link">
-          <a href="#">About Us</a>
-        </li>
-        <li className="link">
-          <a href="#">Services</a>
-        </li>
-        <li className="link">
-          <a href="#">Pages</a>
-        </li>
-        <li className="link">
-          <a href="#">Blog</a>
-        </li>
-      </ul>
-      <button className="btn">Contact Us</button>
+  <link
+    rel="stylesheet"
+    href="https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css"
+  />
+  <link rel="stylesheet" href=".css" />
+  {/* <header>
+    <div className="logo">
+      <img src="images/logo3.png" alt="" />
+    </div>
+    <nav className="navbar">
+      <a href="#Home">Home</a>
+      <a href="#Home">About</a>
+      <a href="#Home">Service</a>
+      <a href="#Home">Contact</a>
+      <a href="#Home">Login</a>
+      <a href="#Home">Signup</a>
     </nav>
-    <div className="section__container header__container">
-      <div className="header__content">
-        <h1>Providing an Exceptional Patient Experience</h1>
-        <p>
-          Welcome, where exceptional patient experiences are our priority. With
-          compassionate care, state-of-the-art facilities, and a
-          patient-centered approach, we're dedicated to your well-being. Trust
-          us with your health and experience the difference.
+    <div className="right-icons">
+      <div id="menu-bars" className="fas fa-bars" />
+      <div className="btn">Make Appointment</div>
+    </div>
+  </header> */}
+  {/* header section ended */}
+  {/* Home section started */}
+  <div className="main-home">
+    <div className="home">
+      <div className="home-left-content">
+        <span>welcome to Emergency Doctor Services</span>
+        <h2>
+          We take care our
+          <br /> Patients Healths
+        </h2>
+        <p className="lorem">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+          numquam veniam porro eius, fugiat vero ut ipsum libero
         </p>
-        <button className="btn">See Services</button>
-      </div>
-      <div className="header__form">
-        <form>
-          <h4>Book Now</h4>
-          <input type="text" placeholder="First Name" />
-          <input type="text" placeholder="Last Name" />
-          <input type="text" placeholder="Address" />
-          <input type="text" placeholder="Phone No." />
-          <button className="btn form__btn">Book Appointment</button>
-        </form>
-      </div>
-    </div>
-  </header>
-  <section className="section__container service__container">
-    <div className="service__header">
-      <div className="service__header__content">
-        <h2 className="section__header">Our Special service</h2>
-        <p>
-          Beyond simply providing medical care, our commitment lies in
-          delivering unparalleled service tailored to your unique needs.
-        </p>
-      </div>
-      <button className="service__btn">Ask A Service</button>
-    </div>
-    <div className="service__grid">
-      <div className="service__card">
-        <span>
-          <i className="ri-microscope-line" />
-        </span>
-        <h4>Laboratory Test</h4>
-        <p>
-          Accurate Diagnostics, Swift Results: Experience top-notch Laboratory
-          Testing at our facility.
-        </p>
-        <a href="#">Learn More</a>
-      </div>
-      <div className="service__card">
-        <span>
-          <i className="ri-mental-health-line" />
-        </span>
-        <h4>Health Check</h4>
-        <p>
-          Our thorough assessments and expert evaluations help you stay
-          proactive about your health.
-        </p>
-        <a href="#">Learn More</a>
-      </div>
-      <div className="service__card">
-        <span>
-          <i className="ri-hospital-line" />
-        </span>
-        <h4>General Dentistry</h4>
-        <p>
-          Experience comprehensive oral care with Dentistry. Trust us to keep
-          your smile healthy and bright.
-        </p>
-        <a href="#">Learn More</a>
-      </div>
-    </div>
-  </section>
-  <section className="section__container about__container">
-    <div className="about__content">
-      <h2 className="section__header">About Us</h2>
-      <p>
-        Welcome to our healthcare website, your one-stop destination for
-        reliable and comprehensive health care information. We are committed to
-        promoting wellness and providing valuable resources to empower you on
-        your health journey.
-      </p>
-      <p>
-        Explore our extensive collection of expertly written articles and guides
-        covering a wide range of health topics. From understanding common
-        medical conditions to tips for maintaining a healthy lifestyle, our
-        content is designed to educate, inspire, and support you in making
-        informed choices for your health.
-      </p>
-      <p>
-        Discover practical health tips and lifestyle advice to optimize your
-        physical and mental well-being. We believe that small changes can lead
-        to significant improvements in your quality of life, and we're here to
-        guide you on your path to a healthier and happier you.
-      </p>
-    </div>
-    <div className="about__image">
-      <img src="assets/about.jpg" alt="about" />
-    </div>
-  </section>
-  <section className="section__container why__container">
-    <div className="why__image">
-      <img src="assets/choose-us.jpg" alt="why choose us" />
-    </div>
-    <div className="why__content">
-      <h2 className="section__header">Why Choose Us</h2>
-      <p>
-        With a steadfast commitment to your well-being, our team of highly
-        trained healthcare professionals ensures that you receive nothing short
-        of exceptional patient experiences.
-      </p>
-      <div className="why__grid">
-        <span>
-          <i className="ri-hand-heart-line" />
-        </span>
-        <div>
-          <h4>Intensive Care</h4>
-          <p>
-            Our Intensive Care Unit is equipped with advanced technology and
-            staffed by team of professionals
-          </p>
+        <div className="home-btn">
+          <a href="">Read More</a>
+          <a className="homebtnsec" href="">
+            Appointment
+          </a>
         </div>
-        <span>
-          <i className="ri-truck-line" />
-        </span>
-        <div>
-          <h4>Free Ambulance Car</h4>
+      </div>
+      <div className="home-right-content">
+        <img src="images/hero2.png" alt="" />
+      </div>
+    </div>
+  </div>
+  <div className="technology">
+    <div className="main-technology">
+      <div className="inner-technology">
+        <span />
+        <i className="fi fi-tr-hands-heart" />
+        <h2>Great Doctors</h2>
+        <p>
+          Our diverse team of 120+ doctors, including physicians and clinicians,
+          share a common passion to provide the highest quality of world-class
+          care.
+        </p>
+      </div>
+      <div className="inner-technology">
+        <span />
+        <i className="fi fi-rr-doctor" />
+        <h2>Multi-Specialty Care</h2>
+        <p>
+          An ISO 9001-2000 certified, NABH Accredited multi-specialty hospital
+          offering a patient-centric care to people of all age group, backed by
+          the NABL Accredited Laboratories.
+        </p>
+      </div>
+      <div className="inner-technology">
+        <span />
+        <i className="fi fi-tr-user-md" />
+        <h2>24/7 Support</h2>
+        <p>
+          Fully equipped to offer medical assistance for all kinds of
+          emergencies including pediatrics (facilities for Children). Backed by
+          Ambulance with ventilator support.
+        </p>
+      </div>
+    </div>
+  </div>
+  {/* home section ends */}
+  {/* About us section started */}
+  <div className="main-about">
+    <div className="about-heading">About Us</div>
+    <div className="inner-main-about">
+      <div className="about-inner-content-left">
+        <img src="images/about1.png" alt="" />
+      </div>
+      <div className="about-inner-content">
+        <div className="about-right-content">
+          <h2>
+            We're setting Standards in Research <br /> what's more, Critical
+            Care.
+          </h2>
           <p>
-            A compassionate initiative to prioritize your health and well-being
-            without any financial burden.
+            We provide the most full medical services, so every person could
+            have the pportunity o receive qualitative medical help.
           </p>
-        </div>
-        <span>
-          <i className="ri-hospital-line" />
-        </span>
-        <div>
-          <h4>Medical and Surgical</h4>
-          <p>
-            Our Medical and Surgical services offer advanced healthcare
-            solutions to address medical needs.
+          <p className="aboutsec-content">
+            Our Clinic has grown to provide a world class facility for the
+            treatment of tooth loss, dental cosmetics and bore advanced
+            restorative dentistry. We are among the most qualified implant
+            providers in the AUS with over 30 years of uality training and
+            experience.
           </p>
+          <button className="aboutbtn">Read More</button>
         </div>
       </div>
     </div>
-  </section>
-  <section className="section__container doctors__container">
-    <div className="doctors__header">
-      <div className="doctors__header__content">
-        <h2 className="section__header">Our Special Doctors</h2>
-        <p>
-          We take pride in our exceptional team of doctors, each a specialist in
-          their respective fields.
-        </p>
+  </div>
+  {/* About us section ends */}
+  {/* our doctors */}
+  <div className="main-doctors">
+    <div className="doctors-heading">
+      <h2>Our Doctors</h2>
+    </div>
+    <div className="main-inner-doctor">
+      <div className="doc-poster">
+        <div className="doc-icons">
+          <i className="fa-solid fa-share" />
+          <i className="fa-solid fa-eye" />
+          <i className="fa-solid fa-heart" />
+        </div>
+        <img src="images/team1.jpg" alt="" />
+        <div className="doc-details">
+          <h2>Dr.Awasthi</h2>
+          <i className="fa-brands fa-linkedin" />
+          <i className="fa-brands fa-instagram" />
+        </div>
       </div>
-      <div className="doctors__nav">
-        <span>
-          <i className="ri-arrow-left-line" />
-        </span>
-        <span>
-          <i className="ri-arrow-right-line" />
-        </span>
+      <div className="doc-poster">
+        <div className="doc-icons">
+          <i className="fa-solid fa-share" />
+          <i className="fa-solid fa-eye" />
+          <i className="fa-solid fa-heart" />
+        </div>
+        <img src="images/team2.jpg" alt="" />
+        <div className="doc-details">
+          <h2>Dr.bhatiya</h2>
+          <i className="fa-brands fa-linkedin" />
+          <i className="fa-brands fa-instagram" />
+        </div>
+      </div>
+      <div className="doc-poster">
+        <div className="doc-icons">
+          <i className="fa-solid fa-share" />
+          <i className="fa-solid fa-eye" />
+          <i className="fa-solid fa-heart" />
+        </div>
+        <img src="images/team3.jpg" alt="" />
+        <div className="doc-details">
+          <h2>Dr.Patel</h2>
+          <i className="fa-brands fa-linkedin" />
+          <i className="fa-brands fa-instagram" />
+        </div>
+      </div>
+      <div className="doc-poster">
+        <div className="doc-icons">
+          <i className="fa-solid fa-share" />
+          <i className="fa-solid fa-eye" />
+          <i className="fa-solid fa-heart" />
+        </div>
+        <img src="images/team4.jpg" alt="" />
+        <div className="doc-details">
+          <h2>Dr.Sinha</h2>
+          <i className="fa-brands fa-linkedin" />
+          <i className="fa-brands fa-instagram" />
+        </div>
+      </div>
+      <div className="doc-poster">
+        <div className="doc-icons">
+          <i className="fa-solid fa-share" />
+          <i className="fa-solid fa-eye" />
+          <i className="fa-solid fa-heart" />
+        </div>
+        <img src="images/team5.jpg" alt="" />
+        <div className="doc-details">
+          <h2>Dr.Agarwal</h2>
+          <i className="fa-brands fa-linkedin" />
+          <i className="fa-brands fa-instagram" />
+        </div>
+      </div>
+      <div className="doc-poster">
+        <div className="doc-icons">
+          <i className="fa-solid fa-share" />
+          <i className="fa-solid fa-eye" />
+          <i className="fa-solid fa-heart" />
+        </div>
+        <img src="images/team6.jpg" alt="" />
+        <div className="doc-details">
+          <h2>Dr.Jain</h2>
+          <i className="fa-brands fa-linkedin" />
+          <i className="fa-brands fa-instagram" />
+        </div>
       </div>
     </div>
-    <div className="doctors__grid">
-      <div className="doctors__card">
-        <div className="doctors__card__image">
-          <img src="assets/doctor-1.jpg" alt="doctor" />
-          <div className="doctors__socials">
-            <span>
-              <i className="ri-instagram-line" />
-            </span>
-            <span>
-              <i className="ri-facebook-fill" />
-            </span>
-            <span>
-              <i className="ri-heart-fill" />
-            </span>
-            <span>
-              <i className="ri-twitter-fill" />
-            </span>
+  </div>
+  {/* our doctors ended */}
+  {/* our services */}
+  <div className="our-service">
+    <div className="service-heading">
+      <h2>Our Services</h2>
+    </div>
+    <div className="main-services">
+      <div className="inner-services">
+        <div className="service-icon">
+          <i className="fa-solid fa-truck-medical" />
+        </div>
+        <h3>Ambulance Services</h3>
+        <p>
+          We offer extensive medical procedures to outbound &amp; inbound
+          patients what it is and we are very proud achievement staff.
+        </p>
+      </div>
+      <div className="inner-services">
+        <div className="service-icon">
+          <i className="fa-regular fa-hospital" />
+        </div>
+        <h3>Emergency &amp; Trauma</h3>
+        <p>
+          The world-class Emergency &amp; Trauma facility is operational 24×7
+          with all the modern technology and infrastructure to provide the best
+          emergency and trauma support.
+        </p>
+      </div>
+      <div className="inner-services">
+        <div className="service-icon">
+          <i className="fa-regular fa-heart" />
+        </div>
+        <h3>Cardiology (Heart Care)</h3>
+        <p>
+          {" "}
+          Our team of best heart specialists in Lucknow and Cardiothoracic
+          surgeons in Lucknow has trained at the top institutes in India and
+          abroad to perform many treatments and procedures in Cardiology
+        </p>
+      </div>
+      <div className="inner-services">
+        <div className="service-icon">
+          <i className="fa-solid fa-notes-medical" />
+        </div>
+        <h3>Gynaecological Clinic</h3>
+        <p>
+          Our team of the best Gynaecologist in Lucknow and best Obstetrician in
+          Lucknow provides pre-pregnancy and pregnancy care, management of
+          high-risk pregnancies/late pregnancies
+        </p>
+      </div>
+      <div className="inner-services">
+        <div className="service-icon">
+          <i className="fa-solid fa-list-check" />
+        </div>
+        <h3>Urology Hospital</h3>
+        <p>
+          Backed by the best Female urologists in Lucknow as well as male
+          urologist in Lucknow, our treatments match the international standards
+          and include, prostate disease treatment, urology cancer treatment,
+          erectile dysfunction treatment, stone in ureter treatment, stone in
+          kidney treatment, stone in urethra treatment, stone in bladder
+          treatment, andrology treatment and more through laparoscopic urology
+          procedures and reconstructive urology surgery.
+        </p>
+      </div>
+      <div className="inner-services">
+        <div className="service-icon">
+          <i className="fa-solid fa-user-doctor" />
+        </div>
+        <h3>Anesthesia and Pain Management</h3>
+        <p>
+          Our team of experts Anesthesiologists in Lucknow focuses on optimal
+          patient safety and satisfaction. Physician anesthesiologists
+          specialize in anesthesia care, pain management, and critical care
+          medicine. We have the latest equipment in anesthesia care, which give
+          us the ability to provide timely and efficient care at our health
+          center. We and our best anesthesiologist doctors in Lucknow are
+          engineered in ways to focus on the individual needs of the patient..
+        </p>
+      </div>
+    </div>
+  </div>
+  {/* our services ended */}
+  {/* customer review */}
+  <div className="main-review">
+    <section>
+      <div className="review-heading">
+        <h1>Our Customers Review</h1>
+      </div>
+      <div className="main-inner-review">
+        <div className="review-inner-content">
+          <div className="review-box">
+            <img src="images/pic1.jpg" alt="" />
+            <h2>Areeba Shakeel</h2>
+            <div className="review-stars">
+              <i className="fa-solid fa-star" />
+              <i className="fa-solid fa-star" />
+              <i className="fa-solid fa-star" />
+              <i className="fa-solid fa-star" />
+              <i className="fa-regular fa-star" />
+            </div>
+            <div className="review-text">
+              <p>
+                Once I found a doctor who matched my criteria, booking an
+                appointment was a breeze. The website seamlessly integrated with
+                the doctor's scheduling system, so I could see real-time
+                availability and choose a time slot that worked for me. I also
+                appreciated the reminders I received leading up to my
+                appointment, which helped me stay organized.{" "}
+              </p>
+            </div>
+          </div>
+          <div className="review-box">
+            <img src="images/pic2.jpg" alt="" />
+            <h2>Bharvi Sharma</h2>
+            <div className="review-stars">
+              <i className="fa-solid fa-star" />
+              <i className="fa-solid fa-star" />
+              <i className="fa-solid fa-star" />
+              <i className="fa-solid fa-star" />
+              <i className="fa-regular fa-star" />
+            </div>
+            <div className="review-text">
+              <p>
+                During my visit, I found the doctor to be knowledgeable,
+                attentive, and compassionate. It was evident that they took the
+                time to listen to my concerns and provide personalized care. The
+                entire process, from booking the appointment to receiving
+                treatment, was smooth and efficient thanks to Emergency Doctor
+                Services.
+              </p>
+            </div>
+          </div>
+          <div className="review-box">
+            <img src="images/pic3.jpg" alt="" />
+            <h2>Irshad Ansar</h2>
+            <div className="review-stars">
+              <i className="fa-solid fa-star" />
+              <i className="fa-solid fa-star" />
+              <i className="fa-solid fa-star" />
+              <i className="fa-solid fa-star" />
+              <i className="fa-regular fa-star" />
+            </div>
+            <div className="review-text">
+              <p>
+                Overall, I highly recommend Emergency Doctor Services to anyone
+                in need of medical care. Whether you're looking for a primary
+                care physician, specialist, or other healthcare provider, this
+                website makes it easy to find the right match and schedule
+                appointments with ease.
+              </p>
+            </div>
           </div>
         </div>
-        <h4>Dr. Emily Smith</h4>
-        <p>Cardiologist</p>
       </div>
-      <div className="doctors__card">
-        <div className="doctors__card__image">
-          <img src="assets/doctor-2.jpg" alt="doctor" />
-          <div className="doctors__socials">
-            <span>
-              <i className="ri-instagram-line" />
-            </span>
-            <span>
-              <i className="ri-facebook-fill" />
-            </span>
-            <span>
-              <i className="ri-heart-fill" />
-            </span>
-            <span>
-              <i className="ri-twitter-fill" />
-            </span>
-          </div>
+    </section>
+  </div>
+  {/* customer review */}
+  {/* footer */}
+  <div className="main-footer">
+    <div className="footer-inner">
+      <div className="footer-content">
+        <h1>Dummy Links</h1>
+        <div className="link">
+          <a href="">Home</a>
+          <a href="">Home</a>
+          <a href="">Home</a>
+          <a href="">Home</a>
+          <a href="">Home</a>
         </div>
-        <h4>Dr. James Anderson</h4>
-        <p>Neurosurgeon</p>
       </div>
-      <div className="doctors__card">
-        <div className="doctors__card__image">
-          <img src="assets/doctor-3.jpg" alt="doctor" />
-          <div className="doctors__socials">
-            <span>
-              <i className="ri-instagram-line" />
-            </span>
-            <span>
-              <i className="ri-facebook-fill" />
-            </span>
-            <span>
-              <i className="ri-heart-fill" />
-            </span>
-            <span>
-              <i className="ri-twitter-fill" />
-            </span>
-          </div>
+      <div className="footer-content">
+        <h1>Dummy Links</h1>
+        <div className="link">
+          <a href="">Home</a>
+          <a href="">Home</a>
+          <a href="">Home</a>
+          <a href="">Home</a>
+          <a href="">Home</a>
         </div>
-        <h4>Dr. Michael Lee</h4>
-        <p>Dermatologist</p>
       </div>
-    </div>
-  </section>
-  <footer className="footer">
-    <div className="section__container footer__container">
-      <div className="footer__col">
-        <h3>
-          Health<span>Care</span>
-        </h3>
-        <p>
-          We are honored to be a part of your healthcare journey and committed
-          to delivering compassionate, personalized, and top-notch care every
-          step of the way.
-        </p>
-        <p>
-          Trust us with your health, and let us work together to achieve the
-          best possible outcomes for you and your loved ones.
-        </p>
+      <div className="footer-content">
+        <h1>Dummy Links</h1>
+        <div className="link">
+          <a href="">Home</a>
+          <a href="">Home</a>
+          <a href="">Home</a>
+          <a href="">Home</a>
+          <a href="">Home</a>
+        </div>
       </div>
-      <div className="footer__col">
-        <h4>About Us</h4>
-        <p>Home</p>
-        <p>About Us</p>
-        <p>Work With Us</p>
-        <p>Our Blog</p>
-        <p>Terms &amp; Conditions</p>
+      <div className="footer-content">
+        <h1>Dummy Links</h1>
+        <div className="link">
+          <a href="">Home</a>
+          <a href="">Home</a>
+          <a href="">Home</a>
+          <a href="">Home</a>
+          <a href="">Home</a>
+        </div>
       </div>
-      <div className="footer__col">
-        <h4>Services</h4>
-        <p>Search Terms</p>
-        <p>Advance Search</p>
-        <p>Privacy Policy</p>
-        <p>Suppliers</p>
-        <p>Our Stores</p>
-      </div>
-      <div className="footer__col">
-        <h4>Contact Us</h4>
-        <p>
-          <i className="ri-map-pin-2-fill" /> 123, London Bridge Street, London
-        </p>
-        <p>
-          <i className="ri-mail-fill" /> support@care.com
-        </p>
-        <p>
-          <i className="ri-phone-fill" /> (+012) 3456 789
-        </p>
-      </div>
-    </div>
-    <div className="footer__bar">
-      <div className="footer__bar__content">
-        <p>Copyright © 2023 Web Design Mastery. All rights reserved.</p>
-        <div className="footer__socials">
-          <span>
-            <i className="ri-instagram-line" />
-          </span>
-          <span>
-            <i className="ri-facebook-fill" />
-          </span>
-          <span>
-            <i className="ri-heart-fill" />
-          </span>
-          <span>
-            <i className="ri-twitter-fill" />
-          </span>
+      <div className="footer-content">
+        <h1>Dummy Links</h1>
+        <div className="link">
+          <a href="">Home</a>
+          <a href="">Home</a>
+          <a href="">Home</a>
+          <a href="">Home</a>
+          <a href="">Home</a>
         </div>
       </div>
     </div>
-  </footer>
+  </div>
+  {/* footer ended */}
 </>
 
     </div>
